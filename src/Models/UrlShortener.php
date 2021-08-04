@@ -35,13 +35,26 @@ class UrlShortener extends Model
      * @return String
      */
     protected static function getUniqueKey(): String {
-        $randomKey = Str::random(6);
-
+        $randomKey = Str::random(config('url-shortener.url_key_length'));
         while(self::where('url_key', $randomKey)->exists()) {
-            $randomKey = Str::random(6);
+            $randomKey = Str::random(config('url-shortener.url_key_length'));
         }
 
         return $randomKey;
+    }
+
+    /**
+     * Get original target Url from key
+     *
+     * @param String $urlKey
+     * @return Mixed String|Boolean
+     */
+    public static function getOriginalUrlFromKey(String $urlKey): Mixed {
+        $url = self::where('url_key', $urlKey)->first();
+
+        if(!$url) return false;
+
+        return $url->to_url;
     }
 
 }

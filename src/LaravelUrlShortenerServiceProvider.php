@@ -13,7 +13,7 @@ class LaravelUrlShortenerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom(__DIR__ . '/../config/url-shortener.php', 'url-shortener');
     }
 
     /**
@@ -28,5 +28,12 @@ class LaravelUrlShortenerServiceProvider extends ServiceProvider
 
         // Load custom routes
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
+
+        // Load config file
+        if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__ . '/../config/url-shortener.php' => config_path('url-shortener.php'),
+            ], 'config');
+        }
     }
 }

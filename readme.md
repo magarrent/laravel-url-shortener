@@ -11,6 +11,20 @@
 ## Install
 `composer require magarrent/laravel-url-shortener`
 
+Run migrations:
+
+`php artisan migrate`
+
+-----
+
+## Configuration
+
+If you want to configurate some package parameters, run vendor publish:
+
+`php artisan vendor:publish --provider="Magarrent\LaravelUrlShortener\LaravelUrlShortenerServiceProvider"`
+
+
+-----
 ## Usage
 Import the UrlShortener in your php file.
 
@@ -34,9 +48,13 @@ You only have to send the Url To param to the UrlShortener model:
 
 ## Roadmap
 
-- Add custom configuration for url key characters (Currently 6)
+- Ask me for more features! You can buy me a coffe too :)
 
 ## Changelog
+### 1.0.2
+- Add `getOriginalUrlFromKey` function to model
+- Added configuration for Url key length
+
 1.0 - First version
 
 ## Contributing
