@@ -1,0 +1,41 @@
+{
+    "name": "Magarrent/laravel-url-shortener",
+    "description": "A description for laravel-url-shortener.",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Marc Garcia Torrent (Kodio Technologies)",
+            "email": "magarrent@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Magarrent\\LaravelUrlShortener\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magarrent\\LaravelUrlShortener\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Magarrent\\LaravelUrlShortener\\LaravelUrlShortenerServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    }
+}
