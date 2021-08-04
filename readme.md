@@ -3,9 +3,8 @@
 
 ![Laravel Url Shortener](https://user-images.githubusercontent.com/6561770/128169387-4c192224-79e6-46fc-a75b-ed18981e74e3.png)
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Travis](https://img.shields.io/travis/Magarrent/laravel-url-shortener.svg?style=flat-square)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/Magarrent/laravel-url-shortener.svg?style=flat-square)](https://packagist.org/packages/Magarrent/laravel-url-shortener)
+![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
+![Package Size](https://img.shields.io/github/languages/code-size/magarrent/laravel-url-shortener)
 
 ## Install
 `composer require magarrent/laravel-url-shortener`
