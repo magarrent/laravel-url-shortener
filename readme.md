@@ -6,6 +6,8 @@
 ![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
 ![Package Size](https://img.shields.io/github/languages/code-size/magarrent/laravel-url-shortener)
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/magarrent)
+
 ## Install
 `composer require magarrent/laravel-url-shortener`
 
