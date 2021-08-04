@@ -1,6 +1,6 @@
 {
-    "name": "Magarrent/laravel-url-shortener",
-    "description": "A description for laravel-url-shortener.",
+    "name": "magarrent/laravel-url-shortener",
+    "description": "Simpler Url Shortener for Laravel",
     "type": "package",
     "license": "MIT",
     "keywords": [

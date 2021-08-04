@@ -1,7 +1,7 @@
 
 # Laravel Url Shortener
 
-![Laravel Url Shortener](https://user-images.githubusercontent.com/6561770/128167953-443fd32f-5e11-4a07-aa53-7f6460466e83.png)
+![Laravel Url Shortener](https://user-images.githubusercontent.com/6561770/128169387-4c192224-79e6-46fc-a75b-ed18981e74e3.png)
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Travis](https://img.shields.io/travis/Magarrent/laravel-url-shortener.svg?style=flat-square)]()
