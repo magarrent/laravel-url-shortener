@@ -23,6 +23,16 @@ If you want to configurate some package parameters, run vendor publish:
 
 `php artisan vendor:publish --provider="Magarrent\LaravelUrlShortener\LaravelUrlShortenerServiceProvider"`
 
+Change the Key Url length in the `url-shortener.php` config file:
+
+```php
+<?php
+
+return [
+    'url_key_length' => 6, // http://test.test/X-random-key-length
+];
+
+```
 
 -----
 ## Usage
