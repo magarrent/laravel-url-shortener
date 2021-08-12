@@ -14,7 +14,7 @@ class UpdateUrlKeyLength extends Migration
     public function up()
     {
         Schema::table('url_shorteners', function (Blueprint $table) {
-            $table->->unique('url_key');
+            $table->unique('url_key');
         });
     }
 
