@@ -65,7 +65,8 @@ You only have to send the Url To param to the UrlShortener model:
 - Add `getOriginalUrlFromKey` function to model
 - Added configuration for Url key length
 
-1.0 - First version
+### 1.0 
+- First version
 
 ## Contributing
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
