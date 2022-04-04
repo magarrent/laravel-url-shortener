@@ -61,6 +61,11 @@ You only have to send the Url To param to the UrlShortener model:
 - Ask me for more features! You can buy me a coffe too :)
 
 ## Changelog
+
+### 1.0.4
+- Added support for **Laravel 9**
+- Fixed installation problem with migrations
+  
 ### 1.0.2
 - Add `getOriginalUrlFromKey` function to model
 - Added configuration for Url key length
